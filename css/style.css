@@ -3,7 +3,7 @@
 /* VARIABLES */
 
 html {
-
+  --headerbgc: #DEE1E6;
 }
 
 /*  BODY */
@@ -11,7 +11,7 @@ html {
 
 /*  HEADER */
 .header {
-  background-color: #DEE1E6;
+  background-color: var(--bgc);
   padding:20px;
   text-align: center;
 }
