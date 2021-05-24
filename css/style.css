@@ -10,7 +10,11 @@ html {
 
 
 /*  HEADER */
-
+.header {
+  background-color: #DEE1E6;
+  padding:20px;
+  text-align: center;
+}
 
 
 /*  NAVBAR */
