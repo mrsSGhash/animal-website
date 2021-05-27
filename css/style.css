@@ -57,3 +57,11 @@ li a:hover:not(.active) {
 
 
 /*  FOOTER */
+/* Making a fixed footer at the bottom of the page */
+.footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  text-align:center;
+}
