@@ -3,12 +3,12 @@
 /* VARIABLES */
 
 html {
-  --headerbgc: #DEE1E6;
-  --navbgc:#333;
-  --navbglistc:#bbb;
-  --navlistac:white;
-  --navbgactive:#4CAF50;
-  --navbghover:#111;
+  --headerbgc: #DEE1E6; /* background colour in my header */
+  --navbgc:#333; /* background colour for my nav bar */
+  --navbglistc:#bbb; /* background colour for my tabs in nav */
+  --navlistac:white; /* background colour for my fonts */
+  --navbgactive:#4CAF50; /* background colour my nav's that are active */
+  --navbghover:#111; /* background colour my nav's that are being hovered */
 }
 
 /*  BODY */
