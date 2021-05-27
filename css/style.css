@@ -4,6 +4,11 @@
 
 html {
   --headerbgc: #DEE1E6;
+  --navbgc:#333;
+  --navbglistc:#bbb;
+  --navlistac:white;
+  --navbgactive:#4CAF50;
+  --navbghover:#111;
 }
 
 /*  BODY */
@@ -24,12 +29,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--navbgc);
 }
 
 li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right:1px solid var(--navbglistc);
 }
 
 li:last-child {
@@ -38,18 +43,18 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: var(--navliac);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: var(--navbghover);
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: var(--navbgactive);
 }
 
 
