@@ -8,7 +8,7 @@ html {
   --navbglistc:#bbb; /* background colour for my tabs in nav */
   --navlistac:white; /* background colour for my fonts */
   --navbgactive:#4CAF50; /* background colour my nav's that are active */
-  --navbghover:#111; /* background colour my nav's that are being hovered */
+  --navbghover:white; /* background colour my nav's that are being hovered */
 }
 
 /*  BODY */
