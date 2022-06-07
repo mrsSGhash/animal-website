@@ -18,13 +18,19 @@ body {
 
 /*  HEADER */
 .header {
-  background-color: var(--bgc);
+  background-image: url('/images/print-seamless.jpg');
   padding:20px;
   text-align: center;
 }
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name {
+  background-color: var(--headerbgc);
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 h3 {
